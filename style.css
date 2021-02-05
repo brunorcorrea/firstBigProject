@@ -1,0 +1,303 @@
+	.topo{
+			background-color: black;
+			padding-bottom:1%;
+			padding-top: 1%;
+			width: 100%;
+			font-family: 'Staatliches', cursive;
+			height: 50px;
+		}
+	#menu{
+			color: white;
+			width: 15%;
+			font-size: 30px;
+			background-color: black;
+	}
+	a.menu:hover{
+			background-color:rgba(255,255,255,0.2);
+			color:white;
+			text-decoration:none;
+		}
+	a.menu:link{
+			color:lightgray;
+			text-decoration:none;
+		}
+	
+	a.menu:visited{
+			color:gray;
+			text-decoration:none;
+		}
+	
+	a.menu:active{
+			color:lightgray;
+			text-decoration:none;
+		}
+	
+	a.menu:focus{
+			color:lightgray;
+			text-decoration:none;
+
+	}
+	body{
+		background-image: url("midia/cs.jpg");
+		width: 100%;
+		height: 100%;
+		background-attachment: fixed;
+		background-size: cover;
+		margin: 0px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		font-family: MV BOLI;
+		color: white;
+		font-size: 20px;
+	}
+	
+	h1{
+		color:white;
+		font-size: 45px;
+		text-shadow: 1px 1px 1px black,-1px -1px 1px lightgray;
+		text-align: center;
+	}
+
+	#noticia{ 
+		margin: 1%;
+		margin-bottom: 5%;
+		padding: 1%;
+		width: 96%;
+		border-style: double;
+		border-width: 3px;
+		border-color: rgba(255,100,100);
+		background-color: rgba(135,135,135,0.7);
+		text-align: justify;
+		font-size: 25px;
+
+	}
+	#hist{
+		color: black;
+		font-size: 25px;
+		margin: 1%;
+		padding: 1%;
+		width: 96%;
+		border-style: solid;
+		border-width: 3px;
+		border-color: rgba(255,100,100);
+		background-color: rgba(200,200,200,0.8);
+		text-align: justify;
+		border-radius: 30px;
+		font-family: serif;
+	}
+	#amarelo{
+		width:  500px;
+		position: relative;
+		float: left;
+		padding-left: 2%;
+	}
+	#azul{
+		width:  500px;
+		float: right;
+		padding-right: 2%;
+	}
+	#sla{
+		width: 20%;
+		height: 80px;
+		position: absolute;
+		left: 40%;
+		top: 0px;
+		margin-bottom: 0%;
+	}
+
+		h3{
+			text-align: center;
+			color: pink;
+		}
+		#noticiast{
+			margin:2%;
+			border-style: solid;
+			border-width: 1px;
+			border-radius: 20px;
+			padding-left: 2%;
+			width: 20%;
+			color: black;
+			background-color: rgb(255,255,255,0.5);
+		}
+		a.not:hover{
+				background-color:gray;
+				text-decoration:none;
+		}
+		a.not:link{
+			color:pink;
+			text-decoration:none;
+		}
+	
+		a.not:visited{
+			color:black;
+			text-decoration:none;
+		}
+		#fallen{
+			border-width:1px;
+			border-style: dashed;
+			background-color: rgba(0,0,0,0.6);
+			width: 15%;
+			padding: 0%;
+			margin-left: 7.5%;
+			float: left;
+			text-align: center;
+			animation-iteration-count:1;
+			animation-name: animacao1;
+			animation-timing-function: ease;
+			animation-duration: 2.5s;
+			visibility: hidden;
+			animation-delay:4s;
+			animation-fill-mode: forwards;
+	
+			
+	}
+	#fer{
+			border-width:1px;
+			border-style: dashed;
+			background-color: rgba(0,0,0,0.6);
+			width: 15%;
+			padding: 0%;
+			margin-left: 2.5%;
+			float: left;
+			text-align: center;
+			animation-iteration-count:1;
+			animation-name: animacao2;
+			animation-timing-function: ease;
+			animation-duration: 2.5s;
+			animation-delay:3s;
+			animation-fill-mode: forwards;
+			visibility: hidden;
+	
+	}
+	#lucas{
+			border-width:1px;
+			border-style: dashed;
+			background-color: rgba(0,0,0,0.6);
+			width: 15%;
+			padding: 0%;
+			margin-left: 2.5%;
+			float: left;
+			text-align: center;
+			animation-iteration-count:1;
+			animation-name: animacao3;
+			animation-timing-function: ease;
+			animation-duration: 2.5s;
+			animation-delay:2s;
+			animation-fill-mode: forwards;
+			visibility: hidden;
+	}
+	#kng{
+			border-width:1px;
+			border-style: dashed;
+			background-color: rgba(0,0,0,0.6);
+			width: 15%;
+			padding: 0%;
+			margin-left: 2.5%;
+			float: left;
+			text-align: center;
+			animation-iteration-count:1;
+			animation-name: animacao4;
+			animation-timing-function: ease;
+			animation-duration: 2.5s;
+			animation-delay:1s;
+			animation-fill-mode: forwards;
+			visibility: hidden;
+		}
+	#taco{
+			border-width:1px;
+			border-style: dashed;
+			background-color: rgba(0,0,0,0.6);
+			width: 15%;
+			padding: 0%;
+			margin-left: 2.5%;
+			float: left;
+			text-align: center;
+			animation-iteration-count:1;
+			animation-name: animacao5;
+			animation-timing-function: ease;
+			animation-duration: 2.5s;
+			
+			animation-fill-mode: forwards;
+			visibility: hidden;
+	
+			
+	}
+	@keyframes animacao1{
+			0%{
+			position:relative;
+
+			
+			visibility:visible;
+
+			
+				left: -22.5%;
+			}
+			100%{
+				visibility:visible;
+				position:relative;
+				
+				
+				
+				left: 0%;
+			}
+		}
+	@keyframes animacao2{
+			0%{
+				position:relative;
+		
+		visibility:visible;
+				
+			
+				left: -40%;
+			}
+			100%{
+				position:relative;
+			visibility:visible;
+			
+				left: 0%;
+			}
+		}
+	@keyframes animacao3{
+			0%{
+				visibility:visible;
+				position:relative;
+				left: -52.5%;
+				animation-delay:2s;
+			}
+			100%{
+				visibility:visible;
+				position:relative;
+				left: 0%;
+			
+			}
+		}
+	@keyframes animacao4{
+			0%{
+				visibility:visible;
+				position:relative;
+				
+				animation-delay:3s;
+				left: -65%;
+			}
+			100%{
+				position:relative;
+		visibility:visible;
+				
+				left: 0%;
+			}
+		}
+	@keyframes animacao5{
+			0%{
+				visibility:visible;
+				position:relative;
+				
+				animation-delay:4s;
+				left: -77.5%;
+			}
+			100%{
+				position:relative;
+			visibility:visible;
+				
+				left: 0%;
+			}
+		}
