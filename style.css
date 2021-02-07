@@ -4,13 +4,14 @@
 			padding-top: 1%;
 			width: 100%;
 			font-family: 'Staatliches', cursive;
-			height: 50px;
+			height: 3em;
 		}
 	#menu{
 			color: white;
-			width: 15%;
-			font-size: 30px;
+			width: 20%;
+			font-size: 1.5em;
 			background-color: black;
+			float: left;
 	}
 	a.menu:hover{
 			background-color:rgba(255,255,255,0.2);
@@ -18,7 +19,7 @@
 			text-decoration:none;
 		}
 	a.menu:link{
-			color:lightgray;
+			color:lightblue;
 			text-decoration:none;
 		}
 	
@@ -52,47 +53,82 @@
 	}
 	
 	h1{
+		margin-top: 2.5em;
 		color:white;
-		font-size: 45px;
+		font-size: 2em;
 		text-shadow: 1px 1px 1px black,-1px -1px 1px lightgray;
 		text-align: center;
 	}
+	#peq{
+		visibility: hidden;
+	}
+	@media (max-width: 1024px)
+		{
+		    #menu{
+				width: 40%;
+				font-size: 1em;
+				margin: 0px;
+			}
+			.topo{
+			height: 1.2em;
+			margin-bottom: 2.7em;
+
+			}
+			#sla{
+				height:0.5em;
+				visibility: hidden;
+			}
+			#peq{
+				position: relative;
+				
+				visibility: visible;
+				float: right;
+				width:1em;
+				height: 1em;
+			}
+			body{
+				background-color: rgba(99,33,99,0.2);
+				background-image: none;
+
+			}
+			
+		}
+		
 
 	#noticia{ 
 		margin: 1%;
 		margin-bottom: 5%;
 		padding: 1%;
-		width: 96%;
+		width: 94%;
 		border-style: double;
 		border-width: 3px;
 		border-color: rgba(255,100,100);
 		background-color: rgba(135,135,135,0.7);
 		text-align: justify;
-		font-size: 25px;
+		font-size: 1.2em;
 
 	}
 	#hist{
 		color: black;
-		font-size: 25px;
+		font-size: 1.2em;
 		margin: 1%;
 		padding: 1%;
-		width: 96%;
+		width: 95%;
 		border-style: solid;
 		border-width: 3px;
 		border-color: rgba(255,100,100);
 		background-color: rgba(200,200,200,0.8);
 		text-align: justify;
-		border-radius: 30px;
 		font-family: serif;
 	}
 	#amarelo{
-		width:  500px;
+		width: 16em;
 		position: relative;
 		float: left;
 		padding-left: 2%;
 	}
 	#azul{
-		width:  500px;
+		width:  16em;
 		float: right;
 		padding-right: 2%;
 	}
@@ -115,7 +151,8 @@
 			border-width: 1px;
 			border-radius: 20px;
 			padding-left: 2%;
-			width: 20%;
+			width: 13em;
+			font-size: 1em;
 			color: black;
 			background-color: rgb(255,255,255,0.5);
 		}
@@ -299,5 +336,36 @@
 			visibility:visible;
 				
 				left: 0%;
+			}
+		}
+	@media print{
+			h1{
+				color: black;
+				font-size: 3em;
+				margin:0%; 
+			}
+			#noticiast{
+				visibility: hidden;
+			}
+			.menu{
+				visibility: hidden;
+			}
+			body{
+				background-color: transparent;
+				color: black;
+				font-size: 0.8em;
+				font-family: "arial";
+			}
+			#noticia{
+				background-color: white;
+			}
+			#menu{
+				visibility: hidden;
+			}
+			.topo{
+				visibility: hidden;
+			}
+			#peq{
+				visibility: hidden;
 			}
 		}
